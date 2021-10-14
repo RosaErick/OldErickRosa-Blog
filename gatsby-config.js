@@ -132,7 +132,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Erick Rosa - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
           },
         ],
       },
