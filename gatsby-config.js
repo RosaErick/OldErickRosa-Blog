@@ -6,6 +6,7 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 module.exports = {
   siteMetadata: {
     siteDescription: `I'm Erick - I'm an aspiring Web Developer from Rio de Janeiro, Brasil.`,
+    siteTitle: `Erick Rosa`
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
