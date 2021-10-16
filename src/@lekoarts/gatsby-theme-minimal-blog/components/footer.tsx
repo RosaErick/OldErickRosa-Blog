@@ -24,13 +24,13 @@ const Footer = () => {
         &copy; {new Date().getFullYear()} by {siteTitle}.
       </div>
       <div>
-        {`Using`} 
+        {`Built with `} 
         <Link
           aria-label="Link para a página do Gatsby"
           href="https://www.gatsbyjs.org/">
           Gatsby  
         </Link>
-        {` e `}
+        {` / `}
         <Link
           aria-label="Link para o repositório no GitHub do tema"
           href="https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog"
