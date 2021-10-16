@@ -5,6 +5,7 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
+    siteDescription: `I'm Erick - I'm an aspiring Web Developer from Rio de Janeiro, Brasil.`,
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
@@ -27,13 +28,14 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Instagram`,
-            url: `https://instagram.com/erickrozza`,
+            name: `Homepage`,
+            url: `https://rosaerick.github.io/portfolio/`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
-          },
+            name: `Projects`,
+            url: `https://rosaerick.github.io/my-projects/`,
+
+          }
         ],
       },
     },
