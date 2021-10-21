@@ -30,7 +30,7 @@ module.exports = {
         externalLinks: [
           {
             name: `Homepage`,
-            url: `https://rosaerick.github.io/portfolio/`,
+            url: `https://erickrosa.netlify.app/`,
           },
           {
             name: `Projects`,
