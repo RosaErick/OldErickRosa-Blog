@@ -1,0 +1,38 @@
+---
+title: Centralizando elementos em position absolute
+date: 2021-10-22
+slug: "/como-centralizar-elementos-position-absolute"
+tags:
+  - css
+---
+Vamos supor que precisamos posicionar um elemento que esta em `position: absolute` no centro de outro elemento mas como fazemos isso?
+
+- A position do elemento pai deve ser: `position: relative`
+- Para o elemento filho que voce quer centralizar:
+    - a position em absolute: `position: absolute`
+    - as propriedades `top` e `left` ficam assim: `left: 50%; top: 50%`
+    - Use a propriedade transformar(`transform`) e faça o `translate` do elemento da seguimente maneira: `transform: translate(-50%, -50%)`
+    
+    ## Exemplo:
+    
+    ```css
+    .parent {
+      position: relative;
+      height: 300px;
+    width: 500px;
+    
+    }
+    .child {
+      top: 50%;
+      left: 50%;
+    	position: absolute;
+      transform: translate(-50%, -50%);
+    ```
+    
+    ## Importante lembrar:
+    
+    As declaraçoes `left: 50%` e `top: 50%` sao relativas ao seu elemento pai mas a declaraçao `transform: translate(-50%, -50%)` 
+    
+    e relativa a altura(`height`) e largura(`width`) do elemento .
+    
+    Exemplo completo no: [Code Pen](https://codepen.io/rosaerick/pen/eYEBZPj).
