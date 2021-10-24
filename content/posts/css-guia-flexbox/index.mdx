@@ -1,0 +1,49 @@
+---
+title: Pequeno guia de CSS FlexBox
+date: 2021-10-23
+slug: "/pequeno-guia-css-flex"
+tags:
+  - css
+  - flexbox
+---
+
+# CSS FlexBox
+
+O **Flexbox** foi pensado como modelo de layout unidimensional e como um método que pode oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento.
+
+## Flex Container:
+
+É a tag que envolve os itens, será nela que iremos aplicar a propriedade `display:flex;` transforma todos os seus itens “filhos” em ***flex itens***.
+
+Propriedades relacionadas ao **Flex Container**:
+
+- `display:`inicializador do container.
+- `flex-direction`: direcionamento dos itens, seja em linha ou coluna etc. `flex-direction:` é a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex items são colocados no flex container.
+    ### Eixos:
+    
+   - `row` (padrão): a direção do texto, esquerda para direita
+    
+    -`row-reverse:` revertido
+    
+    -`column:` coloca em coluna
+    
+    -`column-reverse`: reverte a coluna
+    
+- `flex-wrap`: se aplica pra quebra de linha ou não. Permite a quebra de linha assim que um dos flex itens não puder mais ser compactado. Define se os itens devem ou não quebrar a linha. por padrão eles não quebram linhas, isso faz com que os flex itens sejam compactados além do limite de conteúdo. `nowrap`: é o padrão, não permite a quebra de linha.
+- `flex-flow`: Abreviação para wrap e direction.
+- `justify-content:` alinha os itens de acordo com sua direção.
+- `align-items:` alinha os itens de acordo com o eixo do container.
+- `align-content:` alinha as linha do container
+
+## Flex Item
+
+São os elementos filhos diretos do **flex container**. e também podem se tornar **flex container.**
+
+Propriedades relacionadas aos **Flex itens:**
+
+- `flex-grow`: define o fator de crescimento
+- `flex-basis`: tamanho inicial desse item antes da distribuição do espaço restante no container. `flex-basis:`é a propriedade que estabelece o tamanho inicial do item antes das distribuições de espaço restante dentro dele, usando como base o conteúdo interno disposto. e relacionado ao grow.
+- `flex-shrink`: capacidade de redução. E a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+- `flex:`  essa propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+- `order:` relacionada a ordem de distribuição e listagem.
+- `align-self:` alinhamento de um item específico dentro de um container. Valores possíveis: auto, flex-start, flex-end, center, stretch, baseline.
