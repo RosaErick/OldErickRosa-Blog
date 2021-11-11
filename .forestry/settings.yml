@@ -9,8 +9,6 @@ sections:
 - type: document
   path: https://github.com/RosaErick/ErickRosa-Blog/tree/master/content
   label: Documento
-  match: "**/*"
-  read_only: false
 - type: directory
   path: ''
   label: All
@@ -19,7 +17,7 @@ sections:
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: public
