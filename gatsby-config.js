@@ -11,6 +11,12 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
     siteTitleAlt: `Erick Rosa - Blog`,
+    siteUrl: `https://erickrosa.gatsbyjs.io/`,
+    siteHeadline: `Erick Rosa - Blog`,
+    siteDescription: `Erick Rosa's personal blog - Web development`,
+    siteLanguage: `pt-br`,
+    siteImage: `src/imgs/animal-kingdom.png`,
+    author: `Erick Rosa`,
   },
   plugins: [
     {
@@ -67,21 +73,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Erick Rosa - Blog`,
+        short_name: `Erick's Blog`,
+        description: `Erick Rosa's Webdevelopment blog.Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
         icons: [
           {
-            src: `#`,
+            src: `src/imgs/animal-kingdom.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `#`,
+            src: `src/imgs/animal-kingdom.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
