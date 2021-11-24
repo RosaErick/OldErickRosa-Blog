@@ -15,7 +15,7 @@ module.exports = {
     siteHeadline: `Erick Rosa - Blog`,
     siteDescription: `Erick Rosa's personal blog - Web development`,
     siteLanguage: `pt-br`,
-    siteImage: `src/imgs/animal-kingdom.png`,
+    siteImage: `/banner.jpg`,
     author: `Erick Rosa`,
   },
   plugins: [
@@ -75,19 +75,19 @@ module.exports = {
       options: {
         name: `Erick Rosa - Blog`,
         short_name: `Erick's Blog`,
-        description: `Erick Rosa's Webdevelopment blog.Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: `Bem-vindo ao meu Blog, Sou Erick Rosa, Historiador e desenvolvedor web.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
         icons: [
           {
-            src: `src/imgs/animal-kingdom.png`,
+            src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `src/imgs/animal-kingdom.png`,
+            src: `/android-chrome-192x192.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
